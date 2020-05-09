@@ -1,0 +1,781 @@
+* {
+    font-family: sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.column {
+    padding: 10px 20px 10px 100px;
+    margin: 10px;
+    letter-spacing: 10px;
+}
+img {
+    width: 15px;
+    
+}
+.head {
+    background-color: #3b5998;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding: 10px 20px 10px 70px; */
+    justify-content: space-between;
+    
+} 
+}
+.head1 {
+    letter-spacing: 15px;
+    padding-bottom: 10px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 10px;
+   
+}
+.head2 {
+    color: white;
+   
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.head3 {
+    justify-content: space-around;
+    width: 350px;
+    display: flex;
+    flex: 2;
+    align-items: center;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    
+    
+}
+.image2 {
+    width: 200px;
+}
+.div2 {
+    background-color: whitesmoke;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 55px;
+    z-index: 1;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.div2a {
+    padding:5px 10px 10px 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div2b {
+    /* padding: 5px 10px 10px 300px; */
+    margin: 20px;
+    word-spacing: 12px;
+    flex-wrap: wrap;
+}
+.topbar {
+    color: black;
+    text-decoration: none;
+}
+.topbar:hover {
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero1 {
+    padding-left: 0px;
+    position: absolute;
+    top: 0px;
+}
+#corona {
+    width: 100%;
+    height: 470px;
+    position: absolute;
+    top: 130px;
+}
+.div3 {
+    position: absolute;
+    top: 620px;
+    background-color: blue;
+    width: 1250px;
+    text-align: center;
+    left: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.div3a {
+    padding-left: 0px;
+    color: black;
+    word-spacing: 2px;
+}
+.div4 {
+    position: absolute;
+    top: 680px;
+    text-align: center;
+    left: 550px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.h1 {
+    float: left;
+    width: 10px;
+    color: #316DC3;
+    font-size: 36px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.h2 {
+    float: left;
+    color: #427900;
+    font-size: 36px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.div4a {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div4b {
+    position: absolute;
+    top: 0px;
+    left: 127px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div4c {
+    clear: both;
+    position: absolute;
+    top: 780px;
+    display: flex;
+    flex-direction: row;
+    left: 550px;
+
+}
+#introimage {
+    width: 50px;
+}
+
+.div5 {
+    position: absolute;
+    top: 840px;
+    width: 1000px;
+    left: 170px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.intropara1 {
+    text-align: justify;
+    line-height: 200%;
+}
+.div6 {
+    position: absolute;
+    top: 1360px;
+    background-color: blue;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.food {
+    width: 40px;
+    padding-top: 50px;
+}
+.food1 {
+    width: 60px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.fam {
+    padding-left: 190px;
+    letter-spacing: 16.2em;
+}
+/* .fam1 {
+    color: white;
+    font-size: 50px;
+    padding-left: 125px;
+    word-spacing: 135px;
+} */
+.div6b {
+    padding-bottom: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 90px;
+    color: white;
+    font-size: 50px;
+    padding-left: 125px;
+    word-spacing: 135px;
+    padding-left: 100px;
+    left: 35px;
+}
+.h11 {
+    float: left;
+    width: 0px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    word-spacing: 3px;
+}
+.h22 {
+    float: left;
+    color: greenyellow;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 150px;
+    left: 180px;
+}
+/* .fam2 {
+    padding-top: 10px;
+    padding-left: 60px;
+} */
+.h111 {
+    float: left;
+    width: 100px;
+    color: white;
+    font-size: 18px;
+    padding-left: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+.h222 {
+    float: left;
+    color: greenyellow;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 150px;
+    left: 510px;
+}
+.h1111 {
+    float: left;
+    width: 125x;
+    color: white;
+    font-size: 18px;
+    padding-left: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 150px;
+    left: 670px;
+}
+.h2222 {
+    float: left;
+    color: greenyellow;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 150px;
+    left: 830px;
+}
+.h11111 {
+    float: left;
+    width: 100x;
+    color: white;
+    font-size: 18px;
+    padding-left: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 150px;
+    left: 930px;
+}
+.h22222 {
+    float: left;
+    color: greenyellow;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 150px;
+    left: 1160px;
+}
+.div6c {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.div7 {
+    position: absolute;
+    top: 1700px;
+    text-align: center;
+    left: 550px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.div7b {
+    padding-left: 10px;
+}
+
+.h10 {
+    color: #316DC3;
+    text-align: center;
+}
+.h20{
+    color: #427900;
+    text-align: center;
+}
+.div8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1900px;
+}
+.div8a {
+    position: relative;
+    top: 25px;
+    left: 90px;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border: solid 1px whitesmoke;
+    border-style: groove;
+    display: inline-block;
+}
+#sadqa {
+    width: 250px;
+    padding-left: 150px;
+}
+.sadqa {
+    padding-left: 120px;
+    font-size: 22px;
+    color: #80b3ff;
+}
+.div8b {
+    position: absolute;
+    top: 25px;
+    left: 500px;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border: solid 1px whitesmoke;
+    border-style: groove;
+    display: inline-block;
+}
+.welfare {
+    padding-left: 150px;
+    font-size: 22px;
+    color: #80b3ff;
+}
+.div8c {
+    position: absolute;
+    top: 25px;
+    left: 910px;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border: solid 1px whitesmoke;
+    border-style: groove;
+    display: inline-block;
+}
+.div9 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 2200px;
+}
+.div9a {
+    position: relative;
+    top: 25px;
+    left: 90px;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border: solid 1px whitesmoke;
+    border-style: groove;
+    display: inline-block;
+}
+.div9b {
+    position: absolute;
+    top: 25px;
+    left: 500px;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border: solid 1px whitesmoke;
+    border-style: groove;
+    display: inline-block;
+}
+.div9c {
+    position: absolute;
+    top: 25px;
+    left: 910px;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border: solid 1px whitesmoke;
+    border-style: groove;
+    display: inline-block;
+}
+.roplant {
+    padding-left: 140px;
+    font-size: 22px;
+    color: #80b3ff;
+}
+.div10 {
+    position: absolute;
+    top: 2600px;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.mission {
+    color: #80b3ff;
+    font-size: 22px;
+    padding-left: 95px;
+}
+.div10a {
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    width: 500px;
+    height: 100px;
+    color: #80b3ff;
+}
+.div10c3 {
+    position: absolute;
+    left: 800px;
+    width: 200px;
+    top: 0px ;
+}
+.col10a {
+    padding-left: 90px;
+}
+#hep {
+    width: 70px;
+    padding-left: 25px;
+}
+.hep {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+#hep1 {
+    width: 60px;
+    height: 50px;
+    padding-left: 25px;
+}
+.div10b {
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    width: 400px;
+    height: 100px;
+    color: #80b3ff;
+}
+.div10c {
+    background-color: whitesmoke;
+    position: absolute;
+    top: 90px;
+    color: #80b3ff;
+    left: 93px;
+    display: flex;
+    flex-direction: row;
+}
+.div10c2 {
+    position: absolute;
+    width: 350px;
+    background-color: whitesmoke;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.div10c1 {
+    position: absolute;
+    left: 400px;
+    width: 350px;
+    background-color: whitesmoke;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.div10d {
+    position: absolute;
+    top: 220px;
+    width: 400px;
+    height: 100px;
+    color: #80b3ff;
+    
+    display: flex;
+    flex-direction: row;
+}
+.div10da {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 93px;
+    height: 100px;
+    width: 350px;
+    align-items: center;
+}
+.div10db {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 495px;
+    height: 100px;
+    width: 350px;
+    align-items: center;
+}
+.event {
+    padding-left: 290px;
+}
+
+.div11 {
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.div11b {
+    background-color: white;
+    position: absolute;
+    top: 550px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+#image1 {
+    color: #316DC3;
+    float: left;
+    width: 655px;
+    padding-left: 540px;
+    font-size: 36px;
+
+}
+#gallery1 {
+    color: #427900;
+    float: left;
+    font-size: 36px;
+}
+#parag {
+    clear: both;
+    padding-left: 580px;
+}
+#pg1 {
+    width: 350px;
+    padding-left: 110px;
+    height: 170px;
+}
+#pg2 {
+    width: 225px;
+    padding-left: 5px;
+    height: 170px;
+}
+#pg3 {
+    width: 225px;
+    padding-left: 5px;
+    height: 170px;
+}
+#pg4 {
+    width: 225px;
+    padding-left: 5px;
+    height: 170px;
+}
+#pg5 {
+    width: 225px;
+    padding-left: 5px;
+    height: 170px;
+}
+.div12 {
+    background-color: rgb(22, 21, 21);
+    position: absolute;
+    top: 920px;
+    width: 100%;
+    height: 450px;
+    color: #aaabad;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.head1 {
+    padding-left: 120px;
+    padding-top: 20px;
+    line-height: 25px;
+}
+.phead {
+    padding-left: 130px;
+}
+#tele {
+    padding-left: 30px;
+}
+.div12b {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.div13 {
+    position: absolute;
+    top: 35px;
+    width: 260px;
+    background-color: rgb(22, 21, 21);
+    left: 600px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: solid 1px #aaabad;
+}
+.div14 {
+    position: absolute;
+    top: 35px;
+    width: 260px;
+    background-color: rgb(22, 21, 21);
+    left: 900px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cpara {
+    letter-spacing: 10px;
+}
+.div15 {
+    position: absolute;
+    top: 1360px;
+    height: 50px;
+    background-color: #316dc3;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.botpara {
+    padding-left: 100px;
+    font-size: 10px;
+    padding-top: 22px;
+}
+.div16 {
+    position: fixed;
+    right: 30px;
+    bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#topup {
+    width: 40px;
+    opacity: 50%;
+}
+@media only screen and (max-width: 600px) {
+    #corona {
+        width: 480px;
+        
+    }
+}
+@media only screen and (max-width: 500px) {
+    #corona {
+        width: 480px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #corona {
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+    }
+}
+body {
+    background-color: whitesmoke;
+}
+@media only screen and (max-width:400px) {
+    .head .head1 .head2 .head3 {
+        width: 100%;
+        padding: 25px;
+        transition: width 1s height 5s;
+    }
+    
+}
+@media only screen and (max-width:600px) {
+    .head .head1 .head2 .head3 {
+        width: 100%;
+        padding: 25px;
+    }
+   
+}
+@media only screen and (max-width:800px) {
+    .head .head1 .head2 .head3 {
+        width: 100%;
+        padding: 25px;
+    }
+    
+}
